@@ -3,3 +3,7 @@ CHIGUAGUA
 DOBERMAN
 PUG
 GOLDEN RETRIEVER
+Bulldog
+Labrador
+Pastor Aleman
+Husky
