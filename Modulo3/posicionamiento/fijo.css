@@ -1,0 +1,18 @@
+body{
+	margin:0px;
+}
+
+#texto {
+	
+	background:yellow;
+	margin-top:65px;
+      }
+
+
+#fijo {
+	position: fixed;
+	top: 0px;
+	background-color: #CCCCCC;
+	height:60px;
+	width: 100%; /* lo damos formas de botonera*/
+}

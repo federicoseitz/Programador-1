@@ -1,0 +1,56 @@
+.contenedor {
+	background-color: blue;
+	display: inline-flex;
+	margin-left: 20px;
+	flex-direction: column;
+}
+
+.item {
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+}
+p{
+	color:blue
+}
+h2{
+	text-transform: uppercase;
+	background-color: aqua;
+}
+h1{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 60px;
+}
+.destacados{
+	font-weight: bolder;
+	font-size: 20px;
+}
+#rojo{
+	background-color: red;
+	width: 250px;
+	height: 250px;
+	color: black;
+	margin-bottom: 50 px;
+	margin-left: 300px;
+border: 10px inset blueviolet;
+padding: 20px;
+box-sizing: border-box;
+}
+.contenedor2 {
+	background-color: red;
+	display: flex;
+	margin-left: 200px;
+	text-align: center;
+	font-style: italic;
+	font-size: x-large;
+	
+	
+
+}
+
+#azul{
+
+}
