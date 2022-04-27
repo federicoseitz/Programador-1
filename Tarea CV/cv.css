@@ -1,0 +1,69 @@
+h1{
+    font-size: 60px;
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: lightpink;
+}
+img{
+    position: relative;
+    margin-left: 400px;
+    border-radius: 46px 46px 46px 46px;
+    -webkit-border-radius: 46px 46px 46px 46px;
+    -moz-border-radius: 46px 46px 46px 46px;
+    border: 7px groove #505eff;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    text-transform: uppercase;
+}
+ol{
+    text-transform: lowercase;
+}
+h2{
+text-align: left;
+font-size: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.contenedor{
+    width: 900px;
+    margin-left: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.contenedor2{
+    margin-left: 600px;
+display: inline-flex;
+}
+.solo{
+    text-align: left;
+}
+.contenedor3{
+    background-color: lemonchiffon;
+    padding: 40px;
+    font-size: 25px;
+    width: 400px;
+    text-align: justify;
+    border: 4px solid black;
+    margin-left: 100px;
+}
+video{
+    position: relative;
+    border: 4px solid black;
+    margin-left: 100px;
+}
+label{
+    font-size: 20px;
+    cursor: grab;
+}
+a{
+    font-size: 30px;
+    text-transform: capitalize;
+}
