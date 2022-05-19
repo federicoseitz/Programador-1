@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(155, 188, 212);
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto;            
+            text-align: center;
+            padding: 20px;
+        }
+        textarea{   
+            background-color: white;
+            border: 1px solid white:
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contador de caracteres</h1>
+        
+        <textarea name="texto" id="mensaje" cols="30" rows="10" maxlength="100"></textarea>
+
+        <div id="contador"></div>
+        
+
+    </div>
+    <script>
+        
+        const mensaje = document.getElementById('mensaje');
+        const contador = document.getElementById('contador');
+
+        mensaje.addEventListener('input', function(e) {
+            const target = e.target;
+            const longitudMax = target.getAttribute('maxlength');
+            const longitudCaracteres = target.value.length;
+            // contador.innerHTML = `cantidad caracteres: ${longitudCaracteres}/${longitudMax}`;
+            contador.innerHTML = 'cantidad caracteres: ' + longitudCaracteres + ' / ' + longitudMax;
+        });
+
+        
+    </script>
+</body>
+</html>

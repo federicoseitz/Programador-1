@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Cambiando el Fondo</title>
+    <link rel="stylesheet" href="prueba.css" />
+  
+  </head>
+
+  <body>
+    
+    <button class="btn1">Cambiar Fondo</button>
+    <!-- <button class="btn2"> Cambiar Fondo </button> -->
+    <!-- <button class="btn3"> Cambiar Fondo </button> -->
+  
+    <script>
+      const btn = document.querySelector("button");
+      const body = document.querySelector("body");
+
+
+      btn.addEventListener("click", fondo);
+
+      function fondo() {
+        console.log('llega');
+      
+        body.style.backgroundColor = 'red';
+      }
+     
+
+
+    </script>
+  </body>
+</html>
