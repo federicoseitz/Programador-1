@@ -6,7 +6,7 @@ h2 {
   font-family: "Alfa Slab One", cursive;
 }
 .hero {
-  background-image: url("header.jpg");
+  background-image: url("fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 0, 5vh;
@@ -48,14 +48,28 @@ h2 {
   opacity: 1;
 }
 .carousel-item img {
-  margin-left: 300px;
-  margin-top: 50px;
+  margin-top: 20px;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 10px;
+  
+
 }
 .card-body {
   font-family: "Alfa Slab One", cursive;
   font-size: small;
 }
-.carousel-item {
-    font-family: "Alfa Slab One", cursive; 
-    margin-bottom: 10px ;
+.modal-body {
+  font-family: "Alfa Slab One", cursive;
+}
+.staff{
+  background: #111934;
+  background: linear-gradient(148deg,#111934 0%, #d300ff 80%);
+  background: -webkit-linear-gradient(148deg,#111934 0%, #d300ff 80%);
+  background: -moz-linear-gradient(148deg,#111934 0%, #d300ff 80%);
+  border-radius: 43px 43px 43px 43px;
+-webkit-border-radius: 43px 43px 43px 43px;
+-moz-border-radius: 43px 43px 43px 43px;
+}
+form{
+  margin-left: 20px;
 }

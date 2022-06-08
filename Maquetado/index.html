@@ -1,178 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <title>Cerveceria X</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="shortcut icon" href="sports_bar_FILL0_wght400_GRAD0_opsz48.png">
-  </head>
 
-  <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Cerveceria X</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Galeria</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Otros
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="#">Como se hace la cerevza</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Degustaciones</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Historia</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <title>Cerveceria X</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="shortcut icon" href="sports_bar_FILL0_wght400_GRAD0_opsz48.png">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-scroll href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll data-scroll href="#novedades">Novedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll href="#historia">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll href="#conocemos">Conocenos</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- NOVEDADES -->
+  <div class="conatiner-fluid">
+    <div id="home" class="row align-items-center hero">
+      <div class="col-lg-3 offset-lg-2">
+        <p>CERVECERIA X</p>
+        <h1>UN LUGAR PARA DISFRUTAR</h1>
+        <p>
+          Utilizamos Las Mejores Materias Primas Asegurando La Mayor Calidad De Nuestra Cerveza. Directo Desde Fábrica.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="novedades" class="row py-4">
+    <div class="col-md-5 offset-md-2 py-3">
+      <h2>Novedades</h2>
+      <ul class="lista-novedades">
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="novedades01.jpg">NUESTRAS
+            CERVEZAS</a>
+        </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">La Mayor variedad de cerveces Artesanales</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Cervezas Lager
+                Normalmente son cervezas claras, para servirse frías con una alta drinkability.
+
+                Cervezas Lager Pilsen
+                Tiene una graduación de alcohol rondando el 4%. Son cervezas rubias elaboradas con maltas claras.
+
+                Lager extra
+                Son las Lager con la graduación de alcohol más alta (entre 6 y 7%).
+
+                Cervezas Ales
+                Suelen tener una graduación más alta y sabores más intensos.
+
+                Pale Ale
+                Son cervezas muy lupuladas y de intenso sabor (algunas pueden llegar a ser bastante amargas).
+
+                Cervezas negras
+
+                Cervezas Stout: Cervezas muy oscuras hechas con malta tostada.
+
+                Cervezas Porter: Una variedad aun más fuerte. Suelen ser muy cremosas y pueden tener matices a
+                chocolate.
+
+                Ale Alemanas
+                Una de las más conocidas es la Kölsh, un tipo de cerveza Ale de color pálido con la particularidad de
+                madurar en frío.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">OPCIONES VEGANAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img src="hamburguesa.jpg" />HAMBURGUESAS
+            GOURMET</a>
+        </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">LAS HAMBURGUESAS MAS RICAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Lo que principalmente marca la diferencia en una hamburguesa gourmet frente a una hamburguesa normal es
+                esencialmente que el pan, la carne, los quesos y las salsas sean de alta calidad.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3"><img src="vegana.jpg" />OPCIONES
+            VEGANAS</a>
+        </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SIN CARNE ES MEJOR</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                DUMPLINGS DE VEGETALES Cebolla – ají morrón – zanahoria – puerro – zucchini – aceite de sésamo y soja
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4"><img src="envio.jpg" />PARA LLEVAR</a>
+        </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ENVIOS A DOMICILIO</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Hacé tu pedido ahora y te lo llevamos a tu casa.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5"><img src="juegosdemesa.jpg" />JUEGOS DE
+            MESA</a>
+        </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">DIVERTITE CON TUS AMIGOS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                TENES UN APMLIA VARIEDAD DE JUEGOS DE MESA PARA QUE TE DIVIERTES CON TUS AMIGOS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!-- CARD -->
+    <div class="card" style="width: 18rem;">
+      <img src="premio.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ORGULLOSOS</h5>
+        <p class="card-text">Cerveceria X comezo a funcionar en 1908 bajo el liderazgo de Pepito el pistolero.</p>
+        <a href="http://127.0.0.1:5500/masfotos.html" class="btn btn-primary">MAS FOTOS</a>
+      </div>El equipo de Cerveceria recibiO el premio como campeón de la Copa Argentina de Cervezas 2021. Cuatro Cerros
+      ganó una medalla dorada en la categoría Hazy IPA y otro oro en Wild/Sour, una plata y un bronce en la categoría
+      Dark Belgian
+    </div>
+    <!-- CAROUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="sol y lara.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sol y Lara de Munro</h5>
+            <p>LA MEJOR BIRRA DE ZONA NORTE.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="viejos.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pablo y Sofia de Carapachay</h5>
+            <p>MUY BUENA CALIDAD Y VERIDAD DE CERVEZAS.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="julian2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Julian y amigos de Pilar</h5>
+            <p>UN AMBIENTE PROPICIO PARA TOMAR UNA CERVEZA CON AMIGOS.</p>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="conatiner-fluid">
-      <div id="home" class="row align-items-center hero">
-        <div class="col-lg-3 offset-lg-2">
-          <p>CERVECERIA X</p>
-          <h1>UN LUGAR PARA DISFRUTAR</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            velit, fuga cumque porro a fugit, quasi dolore et eaque doloremque
-            mollitia adipisci recusandae veniam. A quis ex neque veritatis
-            aspernatur!
-          </p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- FIN CAROUSEL -->
+    <!-- HISTORIA -->
+    <div id="historia" class="row align-items-center py-4">
+      <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+        <img src="cerveceros_soria.jpg" alt="cerveceros_soria" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+        <img src="historia2.jpeg" alt="historia2" class="img-fluid">
+      </div>
+      <div class="col-12 d-sm-none">
+        <img src="historia3.jpg" alt="historia3" class="img-fluid">
+      </div>
+      <div class="col-lg-4  col-md-6 mt-4 mt-sm-0">
+        <h2>HISTORIA</h2>
+        <P>La Cervecería X fue fundada en el año 1890 por Don Otto Sebastian Bemberg. El 31 de octubre de 1890 se sirvió
+          el primer chopp y desde entonces las siguientes generaciones continuaron con el legado.</P>
+      </div>
+    </div>
+    <!-- FIN HISTORIA -->
+    <!-- NOSOTROS -->
+    <div id="nosotros" class="row-align-items-stretch my-3 staff py-4">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>NOSOTROS</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="catador.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="fabricador.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="chef.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="barba.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="novedades" class="row py-4">
-      <div class="col-md-5 offset-md-2 py-3">
-        <h2>Novedades</h2>
-        <ul class="lista-novedades">
-          <li>
-            <a href="#"><img src="novedades01.jpg" />NUESTRAS CERVEZAS</a>
-          </li>
-          <li>
-            <a href="#"><img src="novedades01.jpg" />HAMBURGUESAS GOURMET</a>
-          </li>
-          <li>
-            <a href="#"><img src="novedades01.jpg" />OPCIONES VEGANAS</a>
-          </li>
-          <li>
-            <a href="#"><img src="novedades01.jpg" />PARA LLEVAR</a>
-          </li>
-          <li>
-            <a href="#"><img src="novedades01.jpg" />TIENDA DE REGALOS</a>
-          </li>
-        </ul>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="historia_3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Historia</h5>
-          <p class="card-text">Cerveceria X comezo a funcionar en 1908 bajo el liderazgo de Pepito el pistolero.</p>
-          <a href="#" class="btn btn-primary">Historia en fotos</a>
+    <!-- FIN NOSOTROS -->
+    <!-- CONOCEMOS -->
+    <div id="conocemos" class="row py4">
+      <div class="col-md-4 ofsset-md-2">
+        <h2>VISITANOS</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.3104775609736!2d-58.88219468549317!3d-34.4442657565842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cfeaede898f%3A0x19b16839ce156349!2sAntares%20Pilar!5e0!3m2!1ses-419!2sar!4v1654568502965!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="nosotros01.jpg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Sol de Munro</h5>
-              <p>LA MEJOR BIRRA DE ZONA NORTE.</p>
-            </div>
+      <!--Cierra mapa-->
+      <div class="col-md-4 mt-4 mt-sm-0 ms-md-auto">
+        <h2>CONTACTENOS</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="inputEmail4">
           </div>
-          <div class="carousel-item">
-            <img src="nosotros02.jpg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Pablo de Carapachay</h5>
-              <p>MUY BUENA CALIDAD Y VERIDAD DE CERVEZAS.</p>
-            </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Apellido</label>
+            <input type="password" class="form-control" id="inputPassword4">
           </div>
-          <div class="carousel-item">
-            <img src="nosotros04.jpg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Ariel de Pilar</h5>
-              <p>UN AMBIENTE PROPICIO PARA TOMAR UNA CERVEZA CON AMIGOS.</p>
-            </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Email</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="xxxxxx@xxxxx">
           </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Telefono</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="000-00000000">
+          </div>
+          <div class="col-12">
+            <label for="mensaje">MENSAJE</label>
+            <textarea class="form-control" id="mensaje" rows="4"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+        <!--cierra form-->
       </div>
-
-
+    </div>
     <footer>
       <p class="text-center">Diseñado por Federico Seitz</p>
     </footer>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+      <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
+    <script>
+      src = "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity = "sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin = "anonymous"
+    </script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
