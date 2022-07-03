@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de Fotos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="galeria.css" />
+  </head>
+
+  <body>
+    <h1>GALERIA DE FOTOS</h1>
+
+    <span class="linea"></span>
+    <section class="galeria">
+      <a href="#galeria1">
+        <img src="cerveceros_soria.jpg" alt="" />
+      </a>
+      <a href="#galeria2">
+        <img src="fabricador.jpg" alt="" />
+      </a>
+      <a href="#galeria3">
+        <img src="historia2.jpeg" alt="" />
+      </a>
+      <a href="#galeria4">
+        <img src="julian2.jpg" alt="" />
+      </a>
+      <a href="#galeria5">
+        <img src="masfotos1.jpg" alt="" />
+      </a>
+      <a href="#galeria6">
+        <img src="catador.jpg" alt="" />
+      </a>
+    </section>
+
+    <article class="light-box" id="galeria1">
+      <a href="#galeria6" class="next"><i class="fa-solid fa-circle-arrow-left"></i></a>
+      <img src="cerveceros_soria.jpg" alt="" >
+      <a href="#galeria2" class="next"
+        ><i class="fa-solid fa-circle-arrow-right"></i></a>
+      <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="galeria2">
+      <a href="#galeria1" class="next"><i class="fa-solid fa-circle-arrow-left"></i></a>
+      <img src="fabricador.jpg" alt="" >
+      <a href="#galeria3" class="next"
+        ><i class="fa-solid fa-circle-arrow-right"></i></a>
+      <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="galeria3">
+      <a href="#galeria2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="historia2.jpeg" alt="" >
+      <a href="#galeria4" class="next"
+        ><i class="fa-solid fa-arrow-right"></i
+      ></a>
+      <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="galeria4">
+      <a href="#galeria3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="julian2.jpg" alt="" >
+      <a href="#galeria5" class="next"
+        ><i class="fa-solid fa-arrow-right"></i
+      ></a>
+      <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="galeria5">
+      <a href="#galeria4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="masfotos1.jpg" alt="" >
+      <a href="#galeria6" class="next"
+        ><i class="fa-solid fa-arrow-right"></i
+      ></a>
+      <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="galeria6">
+      <a href="#galeria5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="catador.jpg" alt="" >
+      <a href="#galeria1" class="next"
+        ><i class="fa-solid fa-arrow-right"></i
+      ></a>
+      <a href="#" class="close">X</a>
+    </article>
+
+    <script src="https://kit.fontawesome.com/764ef94f41.js" crossorigin="anonymous"></script>
+  </body>
+</html>
